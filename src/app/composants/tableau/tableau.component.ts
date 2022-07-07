@@ -12,7 +12,7 @@ export class TableauComponent implements OnInit {
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.route.paramMap.subscribe ((res) => {
+    this.route.paramMap.subscribe (res => {
         this.index = Number(res.get('index') ?? "");
       })
   }

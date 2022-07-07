@@ -28,11 +28,11 @@ operateur = "";
         this.resultat = this.var1 - this.var2;
         this.operateur = "-";
       }
-      if (this.op == 'produit') {
+      if (this.op == 'prod') {
         this.resultat = this.var1 * this.var2;
         this.operateur = "x";
       }
-      if (this.op == 'division') {
+      if (this.op == 'div') {
         this.resultat = this.var1 / this.var2;
         this.operateur = "/";
       }
