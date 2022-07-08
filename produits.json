@@ -1,0 +1,23 @@
+{
+  "produits": [
+    {
+      "id": 1,
+      "designation": "ecran lcd",
+      "prixUnitaire": 500,
+      "quantiteEnStock": 20,
+      "chemin": ""
+    },
+    {
+      "designation": "clavier",
+      "prixUnitaire": 25,
+      "quantiteEnStock": 100,
+      "id": 3
+    },
+    {
+      "designation": "tapis",
+      "prixUnitaire": 15,
+      "quantiteEnStock": 200,
+      "id": 4
+    }
+  ]
+}
